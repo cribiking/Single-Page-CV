@@ -1,39 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Welcome to my resume!">
     <title>Arnau-Cribillers-CV</title>
-
-    <style>
-        h4 {
-            color: green;    
-        }
-    </style>
-
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <section id="navigation-container-wrapper">
-            <div class="navigation-container">
-                <div class="navigation-logo-container">
-                    <img width="100px" height="100px" src="img/perfil-img.jpg" alt="Hi, I'm Arnau!, I can't be found... ">
-                </div>
-                <div class="primary-navigation-wraper">
-                    <ul>
-                        <li class="nav-bar-item-myprojects">
-                            <button>MyProjects</button>
-                        </li>
-                        <li class="nav-bar-item-aboutme">
-                            <button>AboutMe</button>
-                        </li>
-                        <li class="nav-bar-item-contact">
-                            <button>Contact</button>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="primary-navigation-wrapper">
+            <div class="logo-container">
+                <img width="100px" height="100px" src="img/perfil-img.jpg" alt="Hi, I'm Arnau!, I can't be found... ">
             </div>
-        </section>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href="#">MyProjects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">AboutMe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <hr>
@@ -42,19 +34,16 @@
             <section class="name">
                 <h1>Arnau Cribillers</h1>
             </section>
-            
+
             <section class="personal-data">
-
-                <h4 >Computer Engineering Student</h4>
-
-                    <ul>
-                        <li><b>Universitat de Lleida</b> Student</li>
-                        <li>Abrera, Barcelona</li>
-                        <li>
-                            <a href="mailto:arnau.cribillers@gmail.com" target="_blank">Contact with me here</a>
-                        </li>
-                    </ul>
-
+                <h4>Computer Engineering Student</h4>
+                <ul>
+                    <li><b>Universitat de Lleida</b> Student</li>
+                    <li>Abrera, Barcelona</li>
+                    <li>
+                        <a href="mailto:arnau.cribillers@gmail.com" target="_blank">Contact with me here</a>
+                    </li>
+                </ul>
             </section>
 
             <section class="skills">
@@ -62,27 +51,19 @@
             </section>
 
             <section class="education">
-                <h4 >Education</h4>
-            </section>
-            
-            <section class="experience">
-                <h4 >Experience</h4>
+                <h4>Education</h4>
             </section>
 
+            <section class="experience">
+                <h4>Experience</h4>
+            </section>
         </article>
     </main>
-    
+
     <footer>
-
         <div class="across-the-internet">
-            <h4 >Across the internet</h4>
+            <h4>Across the internet</h4>
         </div>
-
     </footer>
-    
-    
-
-    
-    
 </body>
 </html>
